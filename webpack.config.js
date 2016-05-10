@@ -1,13 +1,14 @@
 
 module.exports = {
 	//文件入口
-	entry:[
-		'./app/HelloWorld.jsx'
-	],
+	entry:{'helloworld':'./app/HelloWorld.jsx',
+		'tab':'./app/Tab.jsx'
+	}
+	,
 	//文件输出目录
 	output:{
 		path:__dirname+"/build",
-		filename:"bundle.js"
+		filename:"[name].js"
 	},
 	//打包使用到的模块
 	module:{
