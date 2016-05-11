@@ -2,7 +2,7 @@ var React = require("react"),
 	ReactDOM = require("react-dom");
 
 var tabs = [
-	{"key":1,"name":"1","content":'1111'},
+	{"key":1,"name":"1","content":'cccc'},
 	{"key":2,"name":"2","content":'2222'},
 	{"key":3,"name":"3","content":'3333'}
 ];
